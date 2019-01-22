@@ -1,0 +1,16 @@
+// Here are a bunch of resources I found
+
+// docker
+https://docs.docker.com/get-started
+https://www.cloudreach.com/blog/containerize-this-golang-dockerfiles/ (minimizing image size)
+
+// rest API
+https://www.codementor.io/codehakase/building-a-restful-api-with-golang-a6yivzqdo //i haven't actually read this but it seems applicable
+https://github.com/mmorejon/microservices-docker-go-mongodb
+
+// golang
+https://github.com/golang/go/wiki/Learn //wow that's a lot idk
+https://gobyexample.com/
+
+// package management
+https://github.com/Masterminds/glide
