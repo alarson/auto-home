@@ -1,0 +1,10 @@
+Ok, this is me messing around with docker-compose and generally figuring out how all this works. We probably don't need swarm for this but I like the setup. To run, do the following:
+sudo docker build -t testapp . //build the docker image
+sudo docker stack deploy -c docker-compose.yml getstarted //start the "swarm" (just one test image right now)
+
+To confirm that 1/1 replicas are running, do:
+sudo docker service ls
+
+To break it down, just run:
+sudo docker stack rm getstarted
+
