@@ -10,3 +10,6 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# platform-dependent areas (?) I'm really not sure yet how all this works
+pkg/*
