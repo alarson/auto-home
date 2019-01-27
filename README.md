@@ -1,9 +1,5 @@
-# Example 9
-
-## Running the exmaple
-
-To run this exmaple, from the root of this project:
+To run all services configured in docker-compose.yml, run these cmds:
 
 ```sh
-go run ./v9/*.go
+sudo docker-compose build && sudo docker-compose up
 ```

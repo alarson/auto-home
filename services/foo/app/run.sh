@@ -1,2 +1,2 @@
 #TODO: actually build properly
-go run *.go
+go run ./*.go

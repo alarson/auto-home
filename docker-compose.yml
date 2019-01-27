@@ -1,0 +1,13 @@
+version: '3'
+
+services: 
+
+  foo:
+    image: foo:latest
+    build:
+        context: ./
+        dockerfile: ./services/foo/Dockerfile
+        args:
+            buildno: 1
+    ports:
+      - "8080:8080"
